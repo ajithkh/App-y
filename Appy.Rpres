@@ -1,0 +1,30 @@
+Shiny App: Hair/Eye color statistics
+========================================================
+author: Ajith.K.H
+date: 28 February 2016
+
+Overview Hair/Eye color statistics App
+========================================================
+
+This application was created to illustrate distribution of hair and eye color and sex for students.
+
+The application was built as part of a deliverable for the course project for producing Shiny Application and reproducible pitch.
+
+Shiny application is available in 
+
+Source code is avaiable in 
+
+
+Slide With Code
+========================================================
+
+```{r}
+summary(cars)
+```
+
+Slide With Plot
+========================================================
+
+```{r, echo=FALSE}
+plot(cars)
+```
