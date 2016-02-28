@@ -21,9 +21,7 @@ shinyServer(function(input, output) {
     
     {
       t2 <- subset(hecdf,Hair== input$hairclr & Sex == input$sex ,select = c(Eye, Freq))
-      #hist(power [,colm], col =input$colour, xlim = c(0, max(iris[,colm])), main = "Histogram of Iris dataset", breaks = seq(0, max(iris[,colm]),l=input$bin+1), xlab = names(iris[colm]))}
       barplot(t2$Freq,names.arg = t2$Eye,col = input$colour)
-     # hist(t2, col = 'darkgray', border = 'white')
     }
   )    
 }
